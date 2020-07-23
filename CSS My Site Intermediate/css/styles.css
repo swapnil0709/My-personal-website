@@ -1,0 +1,181 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+.topContainer {
+  background-color: #eaf6f6;
+  position: relative;
+  line-height: 2;
+  height: 950px;
+}
+.middleContainer {
+  margin-top: 50px;
+}
+.bottomContainer {
+  background-color: #66bfbf;
+
+  height: 200px;
+  position: relative;
+  text-align: center;
+}
+h1 {
+  width: 20%;
+  margin: 0 auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5em;
+  color: #66bfbf;
+  position: relative;
+  top: 200px;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+}
+h3 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+.pro {
+  text-decoration: underline;
+}
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+}
+.topCloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+a {
+  color: #11999e;
+}
+.programmer {
+  font-weight: normal;
+  position: relative;
+  top: 150px;
+}
+.mountain {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  position: absolute;
+  left: 35%;
+  bottom: 0px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.computerImage {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.guitarImage {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.chessImage {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #e0e0e0;
+  width: 5%;
+  border-width: 6px;
+}
+.bio {
+  width: 30%;
+  margin: 0 auto 50px auto;
+}
+.copyright {
+  margin: 80px auto 20px auto;
+  color: #eaf6f6;
+}
+.footerLink {
+  position: relative;
+  top: 40px;
+}
+.footerLink:hover {
+  color: cornsilk;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin: 20px 30px;
+}
+.contactMe {
+  margin: 20px auto 20px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.classname {
+  -moz-box-shadow: 0px 10px 14px -7px #276873;
+  -webkit-box-shadow: 0px 10px 14px -7px #276873;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #66bfbf),
+    color-stop(1, #11999e)
+  );
+  background: -moz-linear-gradient(center top, #66bfbf 5%, #11999e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66bfbf', endColorstr='#11999e');
+  background-color: #66bfbf;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-left-radius: 8px;
+  text-indent: 0;
+  display: inline-block;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 50px;
+  line-height: 50px;
+  width: 140px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0px 1px 0px #11999e;
+}
+.classname:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #11999e),
+    color-stop(1, #66bfbf)
+  );
+  background: -moz-linear-gradient(center top, #11999e 5%, #66bfbf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#11999e', endColorstr='#66bfbf');
+  background-color: #11999e;
+}
+.classname:active {
+  position: relative;
+  top: 1px;
+}
